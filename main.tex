@@ -1,3 +1,10 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -17,7 +24,6 @@
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} 
@@ -49,24 +55,11 @@
   }
 }
 
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
-  }
-}
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{\small #2} \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -92,15 +85,15 @@
 \begin{center}
     {\Huge \scshape Luca Coccia} \\ \vspace{1pt}
     Palestrina, Italy \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\href{mailto:lucaccc01@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{lucaccc01@gmail.com}} ~ 
-    \href{https://github.com/lucaccc1}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/lucaccc1}}
+    \small \raisebox{-0.1\height}{\href{mailto:lucaccc01@gmail.com}{\raisebox{-0.2\height}{\faEnvelope}\ \underline{lucaccc01@gmail.com}}} ~ 
+    \href{https://github.com/lucaccc1}{\raisebox{-0.2\height}{\faGithub}\ \underline{github.com/lucaccc1}}
     \vspace{-8pt}
 \end{center}
 
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Sapienza Università di Roma}{Sep 2023 -- Expected Oct 2026}
+      {Sapienza Universita di Roma}{Sep 2023 -- Expected Oct 2026}
       {Bachelor of Science in Computer Engineering}{Rome, Italy}
       \resumeItemListStart
         \resumeItem{\textbf{Thesis:} Evaluation of LLMs for the automatic description of functions during static analysis of stripped binaries.}
@@ -124,7 +117,7 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Sapienza Università di Roma}{Mar 2026 -- Jun 2026}
+      {Sapienza Universita di Roma}{Mar 2026 -- Jun 2026}
       {Undergraduate Research Intern}{Rome, Italy}
       \resumeItemListStart
         \resumeItem{Conducted academic research on AI-assisted reverse engineering, independently defining the project scope and methodology under faculty supervision.}
@@ -155,7 +148,7 @@
       \resumeProjectHeading
           {\textbf{\href{https://github.com/lucaccc1/rinnemon}{Rinnemon}} $|$ \emph{React, Node.js, JavaScript, HTML/CSS}}{Mar 2026 -- Present}
           \resumeItemListStart
-            \resumeItem{Designed and developed a fully playable roguelike web game inspired by Pokémon mechanics, optimized specifically for PC browser experiences.}
+            \resumeItem{Designed and developed a fully playable roguelike web game inspired by Pokemon mechanics, optimized specifically for PC browser experiences.}
             \resumeItem{Implemented interactive front-end mechanics and game state logic utilizing modern React hooks and Node.js.}
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
@@ -181,6 +174,5 @@
                 \resumeItem{Simplified complex technical concepts into accessible lessons, improving students' problem-solving skills and academic performance.}
             \resumeItemListEnd
     \resumeSubHeadingListEnd
-
 
 \end{document}
